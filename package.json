@@ -1,0 +1,18 @@
+{
+  "name": "gulp-typo3-linter-example",
+  "version": "1.0.0",
+  "description": "A simple Gulp example for linting TYPO3 related files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Seifert",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-shell": "~0.4.3",
+	"run-sequence": "~1.1.2"
+  },
+  "devDependencies": {
+  }
+}

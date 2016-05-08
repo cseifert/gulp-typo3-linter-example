@@ -1,0 +1,29 @@
+{
+    "name": "cseifert/gulp-typo3-linter-example",
+    "description": "TYPO3 linter example for gulp",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christian Seifert",
+            "email": "christian-f-seifert@gmx.de"
+        }
+    ],
+    "license": ["GPL-2.0+"],
+    "keywords": ["TYPO3 CMS", "Linter"],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cseifert/typo3-typoscript-lint.git"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/NamelessCoder/TYPO3.Fluid.Lint.git"
+        }
+    ],
+    "require-dev": {
+        "typo3fluid/fluid-lint": "dev-master",
+        "helmich/typo3-typoscript-lint": "dev-master"
+    },
+    "require": {
+    }
+}
